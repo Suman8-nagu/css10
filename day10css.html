@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        
+        .reg{
+
+            border: 1px solid black;
+            background-color: bisque;
+            height: 10px;
+            width: 50px;
+            padding: 20px;
+            
+           
+          
+            
+           
+
+        }
+        img{
+            display:none
+        }
+        
+        
+        .reg:hover+img{
+            display:inline-block;
+        }
+        .reg:hover~.img2{
+            display:block;
+        }
+        p{
+            display:none;
+        }
+        .reg:active+p{
+            display: block;
+        }
+
+        
+        
+        
+        
+    </style>
+</head>
+<body>
+    <h1>Grid layout</h1>
+
+        
+       
+        <div class="reg" >
+            <button>suman</button></div>
+            <img src="https://1.bp.blogspot.com/-kp_WUVLr6Y8/XmYLHJKI6PI/AAAAAAAADNo/oFSrzb8blTQYrT6VF-WoXHMvUZcyMKrywCLcBGAsYHQ/s1600/51.jpg" height="100px">
+             
+            
+
+
+        <div class="reg">
+            <button>pavan</button></div>
+            <img src="https://th.bing.com/th/id/OIP.qlbOXWeiaczw1Bmo2TjFWgHaO0?w=800&h=1600&rs=1&pid=ImgDetMain" height="100px">
+            
+        <div class="reg">
+            <button>akhil</button></div>
+            <img src="https://i.pinimg.com/originals/e2/d2/5b/e2d25b76e882145aa7758f79f91966c7.jpg" height="100px">
+        <div class="reg">
+            <button>laddu</button></div>
+            <p>hello</p>
+            
+        <div class="reg"><button>vinay</button></div>
+        <div class="reg"> <button>anil</button></div>       
+       
+
+    </div>
+   
+    
+</body>
+</html>
